@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+data/
+outputs/
+
+# Secrets / local config — keep out of git
+.env
+
+# Hermes-managed — kernel code is orchestration scratch, report is execution-side notes
+kaggle-nb/
+report/
+docs/
